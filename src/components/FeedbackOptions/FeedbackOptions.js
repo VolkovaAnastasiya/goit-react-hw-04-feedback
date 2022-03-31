@@ -10,7 +10,7 @@ const FeedBackOptions = ({ options, onLeaveFeedback }) => {
           type="button"
           className={s.FeedBack}
           key={option}
-          onClick={() => onLeaveFeedback(option)}
+          onClick={onLeaveFeedback}
         >
           {option}
         </button>
