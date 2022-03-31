@@ -1,0 +1,28 @@
+.FeedBack {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(47, 58, 85);
+  color: rgb(250, 248, 248);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgb(49, 94, 146);
+
+  box-shadow: 3px 3px 3px #464646;
+}
+
+.FeedBack:not(:last-child) {
+  margin-right: 20px;
+}
+.FeedBack:hover {
+  background: rgb(82, 98, 141);
+  font-weight: bold;
+
+  transition-duration: 300ms;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
